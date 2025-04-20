@@ -498,9 +498,10 @@ body{
 #fbuilder .pbreak{display:none;}
 #fbuilder .pbreak.pb0{display:block;}
 #fbuilder .cff-form-buttons-container{clear:both;display:block;}
-#fbuilder .pbPrevious,
-#fbuilder .pbNext,
-#fbuilder .pbSubmit{background:#ccc;color:#000;display:inline-block;cursor:pointer;margin:10px 5px 0px 5px;padding:5px 30px;min-height:30px;}
+#fbuilder .pbPrevious, /* Previous Page button */
+#fbuilder .pbNext, /* Next Page button */
+#fbuilder .pbSubmit /* Submit button */
+{background:#ccc;color:#000;display:inline-block;cursor:pointer;margin:10px 5px 0px 5px;padding:5px 30px;min-height:30px;}
 #fbuilder button,
 #fbuilder input[type="button"],
 #fbuilder input[type="reset"],
